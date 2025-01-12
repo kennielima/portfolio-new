@@ -1,6 +1,6 @@
 export const PROJECTS = [
     {
-      "href": "https://chatwithme.up.railway.app/",
+      // "href": "https://chatwithme.up.railway.app/",
       "span": "ChatWithMe",
       "image": "/chatwithme.jpg",
       "code": "https://github.com/kennielima/Chatapp-pern",
@@ -15,7 +15,7 @@ export const PROJECTS = [
     },
     {
       "href": "https://msboutique.vercel.app",
-      "span": "MS Boutique-ongoing",
+      "span": "MSBoutique",
       "image": "/msboutique.jpg",
       "code": "https://github.com/kennielima/ms-boutique",
        "stacks": ["TypeScript", "React/Next.js", "Firebase", "TailwindCSS", "Swiper"]
@@ -25,10 +25,11 @@ export const PROJECTS = [
       "span": "Movieverse",
       "image": "/movieverse.jpg",
       "code": "https://github.com/kennielima/movieverse",
+      "stacks": ["TypeScript", "React/Next.js", "Firebase", "TailwindCSS", "Swiper"]
     },
     {
       "href": "https://peerstake.vercel.app/",
-      "span": "Peer Stake",
+      "span": "PeerStake",
       "image": "/peerstake.jpg",
       "code": "https://github.com/kennielima/betting-app",
        "stacks": ["ReactJs", "Stripe", "Google OAuth", "Context API"]

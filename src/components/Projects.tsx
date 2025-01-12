@@ -5,15 +5,15 @@ import Link from 'next/link'
 
 const Projects = () => {
     return (
-        <div className='sm:w-1/2 flex flex-col gap-10'>
-            <h1 className='text-4xl font-bold mt-12'>
+        <div className='sm:w-1/2 flex flex-col gap-10 sm:overflow-auto'>
+            <h1 className='text-4xl font-bold mt-6 flex justify-center'>
                 Some of my projects
             </h1>
             <div className='grid gap-6'>
                 {PROJECTS.map((project, index) => (
                     <div className='bg-mutedBackground w-full shadow-neutral-700 shadow-sm' key={index}>
                         <Link
-                            href={project.href}
+                            href={project.href || project.code}
                             className='h-[90%] opacity-60 hover:opacity-90'
                             target="_blank"
                         >
@@ -27,6 +27,13 @@ const Projects = () => {
                             />
                         </Link>
                         <div className='h-[10%] w-auto p-3 text-sm flex flex-col gap-2'>
+                            <div className='flex gap-6 font-bold text-sm text-neutral-300'>
+                                <p>{project.span}:</p>
+                                <Link href={project.code} target="_blank" className='hover:text-neutral-400'>View code &#x2192;</Link>
+                                {project.href &&
+                                    <Link href={project.href} target="_blank" className='hover:text-neutral-400'>View site &#x2192;</Link>
+                                }
+                            </div>
                             <ul className='flex gap-2 items-start'>
                                 <span className='font-bold'>Stack:</span>
                                 <div className='flex flex-wrap gap-x-2 text-neutral-300 w-fit'>
@@ -35,10 +42,6 @@ const Projects = () => {
                                     ))}
                                 </div>
                             </ul>
-                            <div className='flex gap-6 font-bold text-sm text-neutral-300 hover:text-neutral-400'>
-                                <Link href={project.code} target="_blank">View code &#x2192;</Link>
-                                <Link href={project.href} target="_blank">View site &#x2192;</Link>
-                            </div>
                         </div>
                     </div>
                 ))
