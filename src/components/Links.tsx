@@ -4,7 +4,7 @@ import React from 'react'
 const Links = () => {
     return (
         <div>
-            <div className='flex gap-3 sm:mt-10 font-bold text-base'>
+            <div className='flex gap-3 md:mt-10 font-bold text-base'>
                 <Link href='https://github.com/kennielima/'>
                     <p className='hover:text-neutral-400'>github</p>
                 </Link>

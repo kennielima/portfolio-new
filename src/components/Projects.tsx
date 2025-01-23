@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 const Projects = () => {
     return (
-        <div className='sm:w-1/2 flex flex-col gap-10 sm:overflow-scroll h-full'>
-            <h1 className='text-4xl font-bold mt-4 flex justify-center'>
+        <div className='md:w-1/2 flex flex-col gap-10 sm:overflow-scroll h-full no-scrollbar'>
+            <h1 className='text-3xl font-bold mt-8 flex justify-center'>
                 Some of my projects
             </h1>
             <div className='grid gap-6'>

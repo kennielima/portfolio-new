@@ -4,7 +4,7 @@ import Links from './Links'
 
 const Bio = () => {
     return (
-        <div className='flex flex-col sm:w-1/2 sm:overflow-scroll h-full justify-between'>
+        <div className='flex flex-col md:w-1/2 md:overflow-scroll h-full justify-between'>
             <div className='flex flex-col gap-6'>
                 <div className='flex flex-col gap-3'>
                     <h1 className='text-6xl font-bold'>Kenny Oyewale</h1>
@@ -42,7 +42,7 @@ const Bio = () => {
                     </div>
                 </div>
             </div>
-            <div className='hidden sm:flex'><Links /></div>
+            <div className='hidden md:flex'><Links /></div>
         </div>
     )
 }
