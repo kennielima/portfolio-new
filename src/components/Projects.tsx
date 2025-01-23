@@ -1,12 +1,12 @@
 import React from 'react'
-import { PROJECTS } from './utils/projects'
+import { PROJECTS } from '../utils/projects'
 import Image from 'next/image'
 import Link from 'next/link'
 
 const Projects = () => {
     return (
-        <div className='sm:w-1/2 flex flex-col gap-10 sm:overflow-auto'>
-            <h1 className='text-4xl font-bold mt-6 flex justify-center'>
+        <div className='sm:w-1/2 flex flex-col gap-10 sm:overflow-scroll h-full'>
+            <h1 className='text-4xl font-bold mt-4 flex justify-center'>
                 Some of my projects
             </h1>
             <div className='grid gap-6'>

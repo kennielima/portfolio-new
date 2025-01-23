@@ -1,6 +1,5 @@
 export const PROJECTS = [
     {
-      // "href": "https://chatwithme.up.railway.app/",
       "span": "ChatWithMe",
       "image": "/chatwithme.jpg",
       "code": "https://github.com/kennielima/Chatapp-pern",

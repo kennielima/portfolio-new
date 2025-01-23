@@ -9,8 +9,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Kennie's Portfolio",
-  description: "Kennie Dev",
+  title: "Kennielima",
+  description: "Kennie's Portfolio",
+  icons: {
+    icon: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🫡</text></svg>"
+  },
 };
 
 export default function RootLayout({
@@ -21,9 +24,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} antialiased`}
+        className={`${inter.variable} antialiased h-screen`}
       >
         {children}
+        <footer className="flex justify-center text-neutral-200 pb-12 sm:pb-0"> &#169; 2025. Kennielima</footer>
       </body>
     </html>
   );
