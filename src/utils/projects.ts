@@ -1,11 +1,5 @@
 export const PROJECTS = [
     {
-      "span": "ChatWithMe",
-      "image": "/chatwithme.jpg",
-      "code": "https://github.com/kennielima/Chatapp-pern",
-      "stacks": ["TypeScript", "Node", "Express", "Prisma", "Supabase", "PostgreSql", "Socket.io", "Zustand"]
-    },
-    {
       "href": "https://kehinde-oyewale-lendsqr-fe-test.vercel.app/",
       "span": "Lendsqr",
       "image": "/lendsqr.jpg",
@@ -20,11 +14,17 @@ export const PROJECTS = [
        "stacks": ["TypeScript", "React/Next.js", "Firebase", "TailwindCSS", "Swiper"]
     },
     {
+      "span": "ChatWithMe",
+      "image": "/chatwithme.jpg",
+      "code": "https://github.com/kennielima/Chatapp-pern",
+      "stacks": ["TypeScript", "Node", "Express", "Prisma", "Supabase", "PostgreSql", "Socket.io", "Zustand"]
+    },
+    {
       "href": "https://movieverse-neon.vercel.app",
       "span": "Movieverse",
       "image": "/movieverse.jpg",
       "code": "https://github.com/kennielima/movieverse",
-      "stacks": ["TypeScript", "React/Next.js", "Firebase", "TailwindCSS", "Swiper"]
+      "stacks": ["Next.js", "TMDB API", "TailwindCSS"]
     },
     {
       "href": "https://peerstake.vercel.app/",
@@ -38,7 +38,7 @@ export const PROJECTS = [
       "span": "Deliciouss",
       "image": "/deliciouss.jpg",
       "code": "https://github.com/kennielima/deliciouss.github.io",
-       "stacks": ["ReactJs", "Splide", "REST API", "Framer", "React Router"]
+       "stacks": ["ReactJs", "Splide", "Spoonacular API", "Framer", "React Router"]
     },
     {
       "href": "https://walletapp-tawny.vercel.app",

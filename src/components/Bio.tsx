@@ -26,7 +26,7 @@ const Bio = () => {
                         <p className='text-neutral-300 text-sm'>Typescript, ReactJs, Node.js, Express, Next.js, MySql, Sequelize, Prisma, PostgreSql, MongoDB, Docker, Firebase, Supabase, Shadcn, AntD, Figma</p>
                     </div>
                     <div className='flex flex-col gap-2'>
-                        <h3 className='font-bold text-lg'>Experience:</h3>
+                        <h3 className='font-bold text-lg'>Relevant experience:</h3>
                         <div className=''>
                             <p className='text-neutral-200'>Backend Engineer</p>
                             <p className='text-neutral-400 text-sm'>Sterling Bank: Nov 2022 - Present</p>

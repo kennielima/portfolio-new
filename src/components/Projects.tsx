@@ -27,12 +27,14 @@ const Projects = () => {
                             />
                         </Link>
                         <div className='h-[10%] w-auto p-3 text-sm flex flex-col gap-2'>
-                            <div className='flex gap-6 font-bold text-sm text-neutral-300'>
+                            <div className='flex gap-3 sm:gap-6 font-bold text-sm text-neutral-300'>
                                 <p>{project.span}:</p>
-                                <Link href={project.code} target="_blank" className='hover:text-neutral-400'>View code &#x2192;</Link>
-                                {project.href &&
-                                    <Link href={project.href} target="_blank" className='hover:text-neutral-400'>View site &#x2192;</Link>
-                                }
+                                <div className='grid gap-2 sm:flex sm:gap-6'>
+                                    <Link href={project.code} target="_blank" className='hover:text-neutral-400'>View code &#x2192;</Link>
+                                    {project.href &&
+                                        <Link href={project.href} target="_blank" className='hover:text-neutral-400'>View site &#x2192;</Link>
+                                    }
+                                </div>
                             </div>
                             <ul className='flex gap-2 items-start'>
                                 <span className='font-bold'>Stack:</span>
