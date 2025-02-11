@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "https://www.kennylima.vercel.app/:path*",
+        "destination": "https://kennylima.vercel.app/:path*",
+        "permanent": true
+      }
+    ]
+  }

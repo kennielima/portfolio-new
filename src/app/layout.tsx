@@ -16,8 +16,11 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "vqXqnXG1N9XjomRA6fZ0d_Rlj0PqDgu1_BCze9JyJpo"
-  }
-};
+  },
+  metadataBase: new URL('https://kennylima.vercel.app'),
+  alternates: {
+    canonical: '/'
+  }};
 
 export default function RootLayout({
   children,
