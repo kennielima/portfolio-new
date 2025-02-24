@@ -12,7 +12,7 @@ const Bio = () => {
                 </div>
                 <div className='flex flex-col gap-5'>
                     <p className='text-base sm:text-lg text-neutral-300 leading-tight'>
-                        Hi, I&apos;m Kennie, a software developer with front and backend skills specializing in building modern fullstack web applications. I am currently building a test
+                        Hi, I&apos;m Kennie, a software developer with front and backend skills specializing in building modern fullstack web applications. I am currently building a
                         <Link
                             href='https://github.com/kennielima/banking-app-system'
                             className='text-neutral-400 hover:text-neutral-500'
