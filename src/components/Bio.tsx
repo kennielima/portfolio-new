@@ -12,26 +12,26 @@ const Bio = () => {
                 </div>
                 <div className='flex flex-col gap-5'>
                     <p className='text-base sm:text-lg text-neutral-300 leading-tight'>
-                        Hi, I&apos;m Kennie, a software developer with front and backend skills specializing in building modern fullstack web applications. I am currently building a
-                        <Link
-                            href='https://github.com/kennielima/banking-app-system'
-                            className='text-neutral-400 hover:text-neutral-500'
-                            target="_blank"
-                        >
-                            {' '}banking application system{' '}
-                        </Link>
-                        and a
+                        Hi, I&apos;m Kennie, a software developer with front and backend skills specializing in building modern fullstack web applications. I am currently building
                         <Link
                             href='https://github.com/kennielima/reviews'
                             className='text-neutral-400 hover:text-neutral-500'
                             target="_blank"
                         >
-                            {' '}reviews app
+                            {' '}Veriview, a reviews app{' '}
+                        </Link>
+                        and a
+                        <Link
+                            href='https://github.com/kennielima/banking-app-system'
+                            className='text-neutral-400 hover:text-neutral-500'
+                            target="_blank"
+                        >
+                            {' '}backend bank application system
                         </Link>.
                     </p>
                     <div>
                         <h3 className='font-bold text-lg'>Skills:</h3>
-                        <p className='text-neutral-300 text-sm'>Typescript, ReactJs, Node.js, Express, Next.js, MySql, Sequelize, Prisma, PostgreSql, MongoDB, Docker, Firebase, Supabase, Shadcn, AntD, Figma</p>
+                        <p className='text-neutral-300 text-sm'>Typescript, ReactJs, Node.js, Express, Next.js, MySql, Sequelize, Prisma, PostgreSql, Docker, Firebase, Supabase, Shadcn, AntD, Figma</p>
                     </div>
                     <div className='flex flex-col gap-2'>
                         <h3 className='font-bold text-lg'>Recent experience:</h3>
