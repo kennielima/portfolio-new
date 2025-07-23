@@ -33,7 +33,11 @@ export default function RootLayout({
         className={`${inter.variable} antialiased h-screen`}
       >
         {children}
-        <footer className="flex justify-center text-neutral-200 pb-8 md:pb-0 sm:pt-4 text-xs"> &#169; 2025. Kennielima</footer>
+        <footer className="flex justify-center text-neutral-400 pb-8 md:pb-4 sm:pt-4 text-xs font-light"> 
+          <span className="bg-gradient-to-r from-neutral-400 to-neutral-600 bg-clip-text text-transparent">
+            &#169; 2025. Kennielima
+          </span>
+        </footer>
       </body>
     </html>
   );
