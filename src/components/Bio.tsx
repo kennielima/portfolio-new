@@ -4,7 +4,7 @@ import Links from './Links'
 
 const Bio = () => {
     return (
-        <div className='flex flex-col md:w-1/2 md:overflow-scroll h-full justify-between no-scrollbar'>
+        <div className='flex flex-col md:w-1/2 mt-12 md:overflow-scroll h-full justify-between no-scrollbar'>
             <div className='flex flex-col gap-6'>
                 <div className='flex flex-col gap-3'>
                     <h1 className='text-5xl sm:text-6xl font-bold'>Kennie Oyewale</h1>
@@ -14,7 +14,7 @@ const Bio = () => {
                     <p className='text-base sm:text-lg text-neutral-300 leading-tight'>
                         Hi, I&apos;m Kennie, a software developer with front and backend skills specializing in building modern fullstack web applications. I am currently building
                         <Link
-                            href='https://github.com/kennielima/reviews'
+                            href='https://veriview.com.ng'
                             className='text-neutral-400 hover:text-neutral-500'
                             target="_blank"
                         >

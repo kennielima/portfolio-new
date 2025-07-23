@@ -14,7 +14,7 @@ const Projects = () => {
                     <div className='bg-mutedBackground w-full shadow-neutral-700 shadow-sm' key={index}>
                         <Link
                             href={project.href || project.code}
-                            className='h-[90%] opacity-60 hover:opacity-90'
+                            className='h-[90%] opacity-60 hover:opacity-90 transition-all'
                             target="_blank"
                         >
                             <Image
