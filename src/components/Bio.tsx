@@ -104,21 +104,21 @@ const Bio = () => {
                         className='text-base sm:text-lg text-neutral-300 leading-relaxed'
                         variants={itemVariants}
                     >
-                        Hi, I&apos;m Kennie, a software developer with front and backend skills specializing in building modern fullstack web applications. I am currently building
+                        Hi, I&apos;m Kennie, a software developer with front and backend skills specializing in building modern fullstack web applications. I am currently building a
                         <Link
-                            href='https://veriview.com.ng'
+                            href='https://github.com/kennielima/playlist_tracker'
                             className='text-blue-400 hover:text-blue-300 transition-colors duration-300 underline decoration-blue-400/30 hover:decoration-blue-300/60'
                             target="_blank"
                         >
-                            {' '}Veriview, a reviews app{' '}
+                            {' '}playlist tracker
                         </Link>
-                        and a
+                        {' '}and a{' '}
                         <Link
                             href='https://github.com/kennielima/banking-app-system'
                             className='text-blue-400 hover:text-blue-300 transition-colors duration-300 underline decoration-blue-400/30 hover:decoration-blue-300/60'
                             target="_blank"
                         >
-                            {' '}backend bank application system
+                            backend bank application system
                         </Link>.
                     </motion.p>
 
