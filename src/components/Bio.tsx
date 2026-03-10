@@ -57,9 +57,7 @@ const Bio = () => {
     }
 
     const skills = [
-        'TypeScript', 'PostgreSQL', 'Docker', 'React.js', 'Node.js', 'Redis', 'Express',
-        'MySQL', "MSSQL Server", 'Sequelize', 'Prisma',
-        'Firebase', 'Supabase', 'Shadcn', 'Framer'
+        'TypeScript', 'PostgreSQL', 'Docker', 'React.js', 'Node.js', 'Express', 'Redis', 'Linux', 'CI-CD', 'Github Actions', 'MySQL', 'MSSQL Server', 'Prisma', 'Sequelize', 'Next.js', 'Nginx', 'Shadcn', 'Framer', 'Firebase', 'Supabase'
     ]
     const Roles = [
         { role: 'Backend Engineer', company: 'Sterling Bank', period: 'Nov 2024 - Present' },
