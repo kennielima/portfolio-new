@@ -1,10 +1,17 @@
 export const PROJECTS = [
   {
+    "href": "https://replaylist.co",
+    "span": "Replaylist",
+    "image": "/replaylist.png",
+    "code": "https://github.com/kennielima/replaylist",
+    "stacks": ["TypeScript", "PostGreSQL", "Docker", "Redis", "Prisma", "Nodejs/Express", "Next.js", "Framer", "Nginx", "Github Actions", "Hetzner"]
+  },
+  {
     "href": "https://veriview.com.ng/",
     "span": "Veriview",
     "image": "/veriview.png",
     "code": "https://github.com/kennielima/veriview",
-    "stacks": ["TypeScript", "Nodejs/Express", "React/Next.js", "PostGreSQL", "Sequelize", "Docker"]
+    "stacks": ["TypeScript", "PostGreSQL", "Docker", "Nodejs/Express", "Next.js", "Sequelize", "Google Cloud Run", "Google Cloud SQL", "SEO"]
   },
   {
     "href": "https://msboutique.vercel.app",

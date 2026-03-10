@@ -57,9 +57,9 @@ const Bio = () => {
     }
 
     const skills = [
-        'TypeScript', 'React.js', 'Node.js', 'Express', 'Next.js',
-        'MySQL', 'Sequelize', 'Prisma', 'PostgreSQL', 'Docker',
-        'Firebase', 'Supabase', 'Shadcn', 'AntD', 'Figma'
+        'TypeScript', 'PostgreSQL', 'Docker', 'React.js', 'Node.js', 'Redis', 'Express',
+        'MySQL', "MSSQL Server", 'Sequelize', 'Prisma',
+        'Firebase', 'Supabase', 'Shadcn', 'Framer'
     ]
     const Roles = [
         { role: 'Backend Engineer', company: 'Sterling Bank', period: 'Nov 2024 - Present' },
@@ -101,16 +101,16 @@ const Bio = () => {
                     variants={itemVariants}
                 >
                     <motion.p
-                        className='text-base sm:text-lg text-neutral-300 leading-relaxed'
+                        className='text-base text-neutral-300 leading-relaxed'
                         variants={itemVariants}
                     >
-                        Hi, I&apos;m Kennie, a software developer with front and backend skills specializing in building modern fullstack web applications. I am currently building a
+                        Hi, I&apos;m Kennie, a fullstack software engineer with front and backend skills specializing in building and shipping fullstack modern web applications. I am currently building
                         <Link
-                            href='https://github.com/kennielima/playlist_tracker'
+                            href='https://github.com/kennielima/replaylist'
                             className='text-blue-400 hover:text-blue-300 transition-colors duration-300 underline decoration-blue-400/30 hover:decoration-blue-300/60'
                             target="_blank"
                         >
-                            {' '}playlist tracker
+                            {' '}Replaylist
                         </Link>
                         {' '}and a{' '}
                         <Link
@@ -118,7 +118,7 @@ const Bio = () => {
                             className='text-blue-400 hover:text-blue-300 transition-colors duration-300 underline decoration-blue-400/30 hover:decoration-blue-300/60'
                             target="_blank"
                         >
-                            backend bank application system
+                            bank application API
                         </Link>.
                     </motion.p>
 
