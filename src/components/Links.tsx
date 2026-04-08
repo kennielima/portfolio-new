@@ -10,7 +10,7 @@ const Links = () => {
         { href: 'https://github.com/kennielima/', src: '/git.webp', alt: 'GitHub' },
         { href: 'https://www.linkedin.com/in/kennielima/', src: '/lkdin.png', alt: 'LinkedIn' },
         { href: 'mailto:kennylima970@gmail.com', src: '/mail.png', alt: 'Email' },
-        { href: '/OYEWALE-KEHINDE.pdf', src: '/cv.jpeg', alt: 'Resume' },
+        { href: '/KEHINDE-OYEWALE.pdf', src: '/cv.jpeg', alt: 'Resume' },
         { href: 'https://www.figma.com/@kennielima', src: '/figma.png', alt: 'Figma' }
     ]
 

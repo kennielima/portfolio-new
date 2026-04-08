@@ -14,11 +14,11 @@ export const PROJECTS = [
     "stacks": ["TypeScript", "PostGreSQL", "Docker", "Nodejs/Express", "Next.js", "Sequelize", "Google Cloud Run", "Google Cloud SQL", "SEO"]
   },
   {
-    "href": "https://msboutique.vercel.app",
-    "span": "MSBoutique",
-    "image": "/msboutique.jpg",
-    "code": "https://github.com/kennielima/ms-boutique",
-    "stacks": ["TypeScript", "React/Next.js", "Firebase", "TailwindCSS", "Swiper"]
+    "href": "https://kehinde-oyewale-lendsqr-fe-test.vercel.app/",
+    "span": "Fintech Dashboard",
+    "image": "/lendsqr.jpg",
+    "code": "https://github.com/kennielima/lendsqr-fe-test",
+    "stacks": ["TypeScript", "React/Next.js", "SCSS", "Jest"]
   },
   {
     "href": "https://movieverse-neon.vercel.app",
@@ -28,11 +28,11 @@ export const PROJECTS = [
     "stacks": ["Next.js", "TMDB API", "TailwindCSS"]
   },
   {
-    "href": "https://kehinde-oyewale-lendsqr-fe-test.vercel.app/",
-    "span": "Fintech Dashboard",
-    "image": "/lendsqr.jpg",
-    "code": "https://github.com/kennielima/lendsqr-fe-test",
-    "stacks": ["TypeScript", "React/Next.js", "SCSS", "Jest"]
+    "href": "https://msboutique.vercel.app",
+    "span": "MSBoutique",
+    "image": "/msboutique.jpg",
+    "code": "https://github.com/kennielima/ms-boutique",
+    "stacks": ["TypeScript", "React/Next.js", "Firebase", "TailwindCSS", "Swiper"]
   },
   {
     "span": "ChatWithMe",
