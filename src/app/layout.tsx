@@ -20,7 +20,8 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://kennylima.vercel.app'),
   alternates: {
     canonical: '/'
-  }};
+  }
+};
 
 export default function RootLayout({
   children,
@@ -33,9 +34,9 @@ export default function RootLayout({
         className={`${inter.variable} antialiased h-screen`}
       >
         {children}
-        <footer className="flex justify-center text-neutral-400 pb-8 md:pb-4 sm:pt-4 text-xs font-light"> 
+        <footer className="flex justify-center text-neutral-400 pb-8 md:pb-4 sm:pt-4 text-xs font-light">
           <span className="bg-gradient-to-r from-neutral-400 to-neutral-600 bg-clip-text text-transparent">
-            &#169; 2025. Kennielima
+            &#169; 2026. Kennielima
           </span>
         </footer>
       </body>
