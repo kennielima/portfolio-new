@@ -102,22 +102,7 @@ const Bio = () => {
                         className='text-base text-neutral-300 leading-relaxed'
                         variants={itemVariants}
                     >
-                        Hi, I&apos;m Kennie, a fullstack software engineer with front and backend skills specializing in building and shipping fullstack modern web applications. I am currently building
-                        <Link
-                            href='https://github.com/kennielima/replaylist'
-                            className='text-blue-400 hover:text-blue-300 transition-colors duration-300 underline decoration-blue-400/30 hover:decoration-blue-300/60'
-                            target="_blank"
-                        >
-                            {' '}Replaylist
-                        </Link>
-                        {' '}and a{' '}
-                        <Link
-                            href='https://github.com/kennielima/banking-app-system'
-                            className='text-blue-400 hover:text-blue-300 transition-colors duration-300 underline decoration-blue-400/30 hover:decoration-blue-300/60'
-                            target="_blank"
-                        >
-                            bank application API
-                        </Link>.
+                        Hi, I&apos;m Kennie, a fullstack software engineer specializing in building and shipping secure, scalable web applications for production environments. I currently build backend systems for Sterling Bank&apos;s Investment Solutions team and independently ship products to production.
                     </motion.p>
 
                     <motion.div variants={itemVariants}>
